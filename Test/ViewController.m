@@ -20,6 +20,7 @@
     NSLog(@"呵呵呵");
     //你知道吗
     NSLog(@"hello");
+    NSLog(@"nihao");
     
 }
 
