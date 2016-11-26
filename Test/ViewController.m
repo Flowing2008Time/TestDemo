@@ -21,6 +21,7 @@
     //你知道吗
     NSLog(@"hello");
     NSLog(@"nihao");
+    NSLog(@"小明");
     
 }
 
