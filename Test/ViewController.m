@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 //    NSLog(@"呵呵呵");
     
-    NSLog(@"asdkfhklashdkfhaslkdjln,mzUjseh");
+    NSLog(@"asdkfhklashdkfhasljhasghklghkdjkdjln,mzUjseh");
     //你知道吗
     NSLog(@"hello");
     NSLog(@"nihao");
