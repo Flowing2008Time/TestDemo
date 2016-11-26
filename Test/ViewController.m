@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "UIColor+RandomColor.h"
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UIView *myView;
 
 @end
 
@@ -24,6 +25,11 @@
     
 }
 
+- (IBAction)btnAction:(id)sender {
+    
+    self.myView.backgroundColor = [UIColor randomColor];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

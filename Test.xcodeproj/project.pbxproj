@@ -13,6 +13,7 @@
 		0705D76B1DE9A9F700019423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0705D7691DE9A9F700019423 /* Main.storyboard */; };
 		0705D76D1DE9A9F700019423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0705D76C1DE9A9F700019423 /* Assets.xcassets */; };
 		0705D7701DE9A9F700019423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0705D76E1DE9A9F700019423 /* LaunchScreen.storyboard */; };
+		347D1D961DE9D25700B202CD /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 347D1D951DE9D25700B202CD /* UIColor+RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0705D76C1DE9A9F700019423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0705D76F1DE9A9F700019423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0705D7711DE9A9F700019423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347D1D941DE9D25700B202CD /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		347D1D951DE9D25700B202CD /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		0705D75F1DE9A9F700019423 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				347D1D941DE9D25700B202CD /* UIColor+RandomColor.h */,
+				347D1D951DE9D25700B202CD /* UIColor+RandomColor.m */,
 				0705D7631DE9A9F700019423 /* AppDelegate.h */,
 				0705D7641DE9A9F700019423 /* AppDelegate.m */,
 				0705D7661DE9A9F700019423 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347D1D961DE9D25700B202CD /* UIColor+RandomColor.m in Sources */,
 				0705D7681DE9A9F700019423 /* ViewController.m in Sources */,
 				0705D7651DE9A9F700019423 /* AppDelegate.m in Sources */,
 				0705D7621DE9A9F700019423 /* main.m in Sources */,
@@ -218,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -273,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Eric.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Eric.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +317,7 @@
 				0705D7761DE9A9F700019423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
