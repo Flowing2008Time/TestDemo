@@ -24,6 +24,7 @@
     NSLog(@"nihao");
     NSLog(@"小明");
     NSLog(@"小花");
+    NSLog(@"夏利");
     
 }
 
