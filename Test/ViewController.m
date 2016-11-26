@@ -23,6 +23,7 @@
     NSLog(@"hello");
     NSLog(@"nihao");
     NSLog(@"小明");
+    NSLog(@"小花");
     
 }
 
