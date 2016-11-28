@@ -19,14 +19,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"呵呵呵");
+
     UITableView *tableView = [[UITableView alloc] init];
+
+
+
    
 }
 
 - (IBAction)btnAction:(id)sender {
     NSLog(@"这是一个按钮");
     self.myView.backgroundColor = [UIColor randomColor];
-
+NSLog(@"呵呵呵");
     
 }
 
