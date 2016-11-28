@@ -20,10 +20,6 @@
     // Do any additional setup after loading the view, typically from a nib.
 //    NSLog(@"呵呵呵");
     
-    NSLog(@"asdkfhklashdkfhasljhasghklghkdjkdjln,mzUjseh");
-    //你知道吗
-    NSLog(@"hello");
-    NSLog(@"nihao");
     NSLog(@"小明");
     NSLog(@"小花");
     NSLog(@"夏利");
@@ -32,7 +28,7 @@
 }
 
 - (IBAction)btnAction:(id)sender {
-    
+    NSLog(@"这是一个按钮");
     self.myView.backgroundColor = [UIColor randomColor];
     
 }
