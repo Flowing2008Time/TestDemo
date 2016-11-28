@@ -30,12 +30,14 @@
 - (IBAction)btnAction:(id)sender {
     NSLog(@"这是一个按钮");
     self.myView.backgroundColor = [UIColor randomColor];
+
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+NSLog(@"这是一个按钮");
 }
 
 
