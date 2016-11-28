@@ -22,6 +22,8 @@
 
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(100, 200, 100, 200) style:(UITableViewStyleGrouped)];
 
+NSLog(@"呵呵呵");
+
 
 
    
