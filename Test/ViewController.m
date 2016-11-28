@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"呵呵呵");
 
-    UITableView *tableView = [[UITableView alloc] init];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(100, 200, 300, 200) style:(UITableViewStyleGrouped)];
 
 
 
