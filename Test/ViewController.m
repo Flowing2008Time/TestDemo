@@ -18,13 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    NSLog(@"呵呵呵");
-    
-    NSLog(@"小明");
-    NSLog(@"小花");
-    NSLog(@"夏利");
-    NSLog(@"小花花");
-    
+    NSLog(@"呵呵呵");
+   
 }
 
 - (IBAction)btnAction:(id)sender {
@@ -37,7 +32,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-NSLog(@"这是一个按钮");
 }
 
 
