@@ -27,7 +27,7 @@
 
 NSLog(@"呵呵呵");
 NSLog(@"呵xiaomei");
-
+NSLog(@"呵xiaomei呵xiaomei");
 
 
    
