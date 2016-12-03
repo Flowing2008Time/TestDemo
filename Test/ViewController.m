@@ -23,6 +23,7 @@
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(100, 200, 100, 200) style:(UITableViewStyleGrouped)];
     tableView.delegate = self;
     [self.view addSubview:tableView];
+    
 
 NSLog(@"呵呵呵");
 NSLog(@"呵xiaomei");
@@ -36,6 +37,7 @@ NSLog(@"呵xiaomei");
     NSLog(@"这是一个按钮");
     self.myView.backgroundColor = [UIColor randomColor];
 NSLog(@"呵呵呵");
+    self.myView.backgroundColor = [UIColor randomColor];
     
 }
 
